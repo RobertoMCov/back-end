@@ -6,13 +6,17 @@ const columnNames = [
         schema: { type: ['string'] },
         isRequired: true
     },
+    // {
+    //     columnName: 'tipoCita',
+    //     schema: { type: ['string'] },
+    //     isRequired: true
+    // },
+    // {
+    //     columnName: 'detalleCita',
+    //     schema: { type: ['string'] },
+    // },
     {
-        columnName: 'tipoCita',
-        schema: { type: ['string'] },
-        isRequired: true
-    },
-    {
-        columnName: 'detalleCita',
+        columnName: 'servicio',
         schema: { type: ['string'] },
     },
     {

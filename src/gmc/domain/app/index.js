@@ -15,6 +15,10 @@ const xpCovGMCamposFormulario = require('./xpCovGMCamposFormulario')
 const xpCovSesion = require('./xpCovSesion')
 const ConectaUsuarios = require('./ConectaUsuarios');
 const ConectaCitas = require('./ConectaCitas')
+const ConectaEspecialidades = require('./ConectaEspecialidades')
+const ConectaEstudios = require('./ConectaEstudios')
+const ConectaPlaticas = require('./ConectaPlaticas')
+const ConectaSesiones = require('./ConectaSesiones')
 
 module.exports = {
   xpCovGMCBaseDatos,
@@ -33,5 +37,9 @@ module.exports = {
   xpCovGMCamposFormulario,
   xpCovSesion,
   ConectaUsuarios,
-  ConectaCitas
+  ConectaCitas,
+  ConectaEspecialidades,
+  ConectaEstudios,
+  ConectaPlaticas,
+  ConectaSesiones
 }
